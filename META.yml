@@ -1,0 +1,16 @@
+--- #YAML:1.0
+name: CPAN-Nargile
+version: 0.02
+author: Gabor Szabo <gabor@pti.co.il>
+abstract: Script for smoking CPAN
+license: perl
+requires:
+  CPAN::DistnameInfo: 0
+  CPANPLUS: 0.049
+  Test::More: 0.47
+  WWW::Mechanize: 0
+provides:
+  CPAN::Nargile:
+    file: lib/CPAN/Nargile.pm
+    version: 0.02
+generated_by: Module::Build version 0.25_01

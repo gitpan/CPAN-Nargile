@@ -1,0 +1,8 @@
+bin/nargile.pl
+Build.PL
+lib/CPAN/Nargile.pm
+Makefile.PL
+MANIFEST			This list of files
+META.yml
+README
+t/00-basic.t
